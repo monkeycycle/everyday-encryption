@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Everyday Encryption</title>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.min.css">
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/theme/solarized.css" id="theme">
+
+        <style>
+
+            .reveal {
+                background: #fefefe;
+            }
+
+            section {
+                background: #fefefe;
+            }
+
+            .center80,
+            .split50,
+            .split30,
+            .split25{
+                display: block;
+                float: left;
+                width: 80%;
+                margin-left: 0;
+                margin-right: 0;
+                padding: 0;
+                position: relative;
+            }
+
+            .center80 {
+                width: 80%;
+                margin-left: 10% !important;
+            }
+
+            .split50 {
+                width: 50%;
+            }
+
+            .split30 {
+                width: 30%;
+            }
+
+            .split25 {
+                width: 25%;
+            }
+            
+            .boxed {
+                background: #eee;
+            }
+
+            .slides section h3,
+            .slides section h4,
+            .slides section h5,
+            .slides section h6,
+            .slides section p,
+            .slides section dl,
+            .slides section ol,
+            .slides section ul,
+
+            .slides section .boxed h3,
+            .slides section .boxed h4,
+            .slides section .boxed h5,
+            .slides section .boxed h6,
+            .slides section .boxed p,
+            .slides section .boxed dl,
+            .slides section .boxed ol,
+            .slides section .boxed ul            
+            
+            {
+                display: block;
+                float: left;
+                width: 90%;
+                margin-top: 0;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-bottom: 2rem;
+                text-align: center;
+            }
+
+            .slides section p,
+            .slides section dl,
+            .slides section ol,
+            .slides section ul {
+                text-align: left;
+                font-size: 1.75rem;
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            .slides section .boxed h3,
+            .slides section .boxed h4,
+            .slides section .boxed h5,
+            .slides section .boxed h6,
+            .slides section .boxed p,
+            .slides section .boxed dl,
+            .slides section .boxed ol,
+            .slides section .boxed ol li,
+            .slides section .boxed ul li {
+                text-align: left;
+                font-size: 1.5rem;
+                margin-top: .3125rem;
+                margin-bottom: .3125rem;
+            }
+
+
+            .slides section dl,
+            .slides section ol,
+            .slides section ul {
+                margin-top: 0;
+                list-style-position: inside;
+            }
+
+            .slides section ol li,
+            .slides section ul li {
+                font-weight: normal;
+                font-size: 1.75rem;
+                margin-left: 11%;
+                list-style-position: outside;
+            }
+
+            .slides section .boxed ol li,
+            .slides section .boxed ul li {
+                margin-left: 7%;
+                margin-top: 0;
+                margin-bottom: .5rem;
+            }
+
+            .slides section dl dt {
+                display: inline-block;
+                width: 30%;
+                margin: 0 0 2.5rem 0;
+                vertical-align: top;
+                font-weight: bold;
+            }
+
+            .slides section dl dd {
+                display: inline-block;
+                width: 60%;
+                margin: 0 5% 2.5rem 0;
+                vertical-align: top;
+                font-weight: normal;
+            }
+
+            .noborder {
+                border: 0 !important;
+            }
+
+            h4, h5, h6 {
+                text-transform: none;
+            }
+            
+
+            pre, code,
+            .brainfuck {
+                display: block;
+                float: left;
+                max-width: 100%;
+                margin: 0px;
+                padding: 0px;
+                background: #fff;
+                border: 0;
+                font-size: .5rem;
+            }
+
+        </style>
+
+
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="bower_components/reveal-highlight-themes/styles/zenburn.css" id="highlight-theme">
+
+        <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+        <script>
+          if( window.location.search.match( /print-pdf/gi ) ) {
+            var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'bower_components/reveal.js/css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+            }
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <div class="slides">
+
+                
+                    
+                        
+    <section data-html="slides/index.html"></section>
+
+
+                    
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/passwords-and-passphrases.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/digital-wallets.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/encryption-concepts.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encryption-endtoend.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/pgp-encryption.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/pgp-encryption-diagram.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/pgp-encryption-sample.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/pgp-key-exchange.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-html="slides/encrypted-communications.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-keygen.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-options.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-import-export.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-publish.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-find-keys.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-import-keys.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-sending-email.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-email-recipients.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-transfer.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-receiving.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-mailvelope-publishing-key.html"></section>
+
+
+                            
+                                
+    <section data-html="slides/encrypting-email-what-next.html"></section>
+
+
+                            
+                        </section>
+                    
+                
+            </div>
+
+        </div>
+
+        <script src="bower_components/reveal.js/lib/js/head.min.js"></script>
+        <script src="bower_components/reveal.js/js/reveal.min.js"></script>
+        <script>
+            // Configure Reveal
+            // Full list of configuration options available here:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+
+                theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+                transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+                // Optional libraries used to extend on reveal.js
+                dependencies: [
+                    { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'bower_components/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    { src: 'bower_components/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+                    { src: 'bower_components/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+                    // { src: 'bower_components/reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+                    //{ src: 'bower_components/reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+
+                    { src: 'js/loadhtmlslides.js', condition: function() { return !!document.querySelector( '[data-html]' ); } }
+                ]
+            });
+        </script>
+
+    </body>
+
+</html>
