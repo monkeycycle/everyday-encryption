@@ -19,5 +19,8 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "coffeelint": "1.16.0"
   }
 }
