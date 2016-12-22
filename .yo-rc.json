@@ -1,0 +1,9 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Everyday Encryption",
+    "packageVersion": "0.9.0",
+    "revealTheme": "simple",
+    "useSass": false,
+    "deployToGithubPages": false
+  }
+}
