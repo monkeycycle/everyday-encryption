@@ -2,13 +2,15 @@
 [
     "index.html",
     [
-        "passwords-and-passphrases.html",
-        "digital-wallets.html"
-    ],
-    [
         "encryption-concepts.html",
         "encryption-endtoend.html"
     ],
+    "digital-wallets.html",
+    [
+        "passwords-and-passphrases.html",
+        "diceware.html"
+    ],
+
     [
         "pgp-encryption.html",
         "pgp-encryption-diagram.html",
@@ -16,7 +18,9 @@
         "pgp-key-exchange.html"
     ],
     [
-        "encrypted-communications.html",
+        "encrypted-communications.html"
+    ],
+    [
         "encrypting-email-mailvelope.html",
         "encrypting-email-mailvelope-keygen.html",
         "encrypting-email-mailvelope-options.html",
@@ -30,7 +34,16 @@
         "encrypting-email-mailvelope-receiving.html",
         "encrypting-email-mailvelope-publishing-key.html",
         "encrypting-email-what-next.html"
+    ],
+    [
+        "encrypting-files-mailvelope.html",
+        "encrypting-drives.html"
+    ],
+    [
+        "otr-chat.html"
+    ],
+    [
+        "scenarios.html"
     ]
 
  ]
-
