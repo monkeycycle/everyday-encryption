@@ -5,7 +5,9 @@
         "encryption-concepts.html",
         "encryption-endtoend.html"
     ],
+
     "digital-wallets.html",
+
     [
         "passwords-and-passphrases.html",
         "diceware.html"
@@ -40,8 +42,12 @@
         "encrypting-drives.html"
     ],
     [
-        "otr-chat.html"
+        "otr-chat.html",
+        "otr-chat-verification.html"
     ],
+
+    "securedrop.html",
+
     [
         "scenarios.html"
     ]
