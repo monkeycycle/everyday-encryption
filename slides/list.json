@@ -6,18 +6,22 @@
         "encryption-endtoend.html"
     ],
 
-    "digital-wallets.html",
-
     [
         "passwords-and-passphrases.html",
         "diceware.html"
     ],
+
+    "digital-wallets.html",
 
     [
         "pgp-encryption.html",
         "pgp-encryption-diagram.html",
         "pgp-encryption-sample.html",
         "pgp-key-exchange.html"
+    ],
+    [
+        "protected-browsing.html",
+        "tor.html"
     ],
     [
         "encrypted-communications.html"
@@ -49,7 +53,11 @@
     "securedrop.html",
 
     [
-        "scenarios.html"
+        "scenarios.html",
+        "scenarios-1.html",
+        "scenarios-2.html",
+        "scenarios-3.html",
+        "scenarios-4.html"
     ]
 
  ]
