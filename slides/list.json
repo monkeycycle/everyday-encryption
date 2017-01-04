@@ -41,14 +41,18 @@
         "encrypting-email-mailvelope-publishing-key.html",
         "encrypting-email-what-next.html"
     ],
-    [
-        "encrypting-files-mailvelope.html",
-        "encrypting-drives.html"
-    ],
+
     [
         "otr-chat.html",
         "otr-chat-verification.html"
     ],
+
+    [
+        "encrypting-files-mailvelope.html",
+        "encrypting-drives.html"
+    ],
+
+    "encrypted-fileshare.html",
 
     "securedrop.html",
 
