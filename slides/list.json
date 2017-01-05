@@ -1,6 +1,9 @@
 
 [
     "index.html",
+
+    "encrypt-anonymous.html",
+
     [
         "encryption-concepts.html",
         "encryption-endtoend.html"
