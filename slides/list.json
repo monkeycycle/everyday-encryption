@@ -11,7 +11,8 @@
 
     [
         "passwords-and-passphrases.html",
-        "diceware.html"
+        "diceware.html",
+        "diceware-screencap.html"
     ],
 
     "2fa.html",
